@@ -34,7 +34,7 @@
         </density_change>
       </graded_buoyancy>
       <!-- Enable by model name -->
-      <enable>bluerov2</enable>
+      <enable>bluerov2_heavy</enable>
     </plugin>
 
     <scene>
@@ -60,7 +60,7 @@
     </include>
 
     <include>
-      <uri>model://bluerov2</uri>
+      <uri>model://bluerov2_heavy</uri>
       <pose>0 0 -2 0 0 0</pose>
     </include>
 
