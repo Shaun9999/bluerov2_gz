@@ -37,6 +37,19 @@
       <enable>bluerov2</enable>
     </plugin>
 
+    <scene>
+      <ambient>0.05 0.12 0.15 1</ambient>
+      <background>0.01 0.04 0.06 1</background>
+      <shadows>true</shadows>
+
+      <fog>
+        <type>linear</type>
+        <color>0.04 0.18 0.22 1</color>
+        <start>3</start>
+        <end>25</end>
+      </fog>
+    </scene>
+
     <include>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
     </include>
@@ -51,10 +64,7 @@
       <pose>0 0 -2 0 0 0</pose>
     </include>
 
-    <include>
-      <uri>model://axes</uri>
-      <pose>0 0 0.2 0 0 0</pose>
-    </include>
+
 
   </world>
 </sdf>
